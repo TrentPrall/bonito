@@ -15,7 +15,7 @@ if mo:
 else:
     raise RuntimeError('Unable to find version string in "{}/__init__.py".'.format(__pkg_name__))
 
-USE_CUDA111 = False
+USE_CUDA111 = True
 
 if USE_CUDA111:
     print("Building with CUDA 11.1")
